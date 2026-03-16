@@ -82,7 +82,7 @@ const observerOptions = {
 
 // Fade-in elements
 const fadeElements = document.querySelectorAll(
-    '.about-grid, .skill-category, .timeline-item, .edu-card, .contact-card, .tools-cloud'
+    '.about-grid, .skill-category, .project-card, .timeline-item, .edu-card, .contact-card, .tools-cloud'
 );
 
 fadeElements.forEach(el => el.classList.add('fade-in'));
