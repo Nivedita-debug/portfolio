@@ -272,6 +272,34 @@ ul { list-style: none; }
     background: rgba(108, 99, 255, 0.05);
 }
 
+.btn-cv {
+    background: rgba(39, 201, 63, 0.12);
+    color: #27c93f;
+    border: 1px solid rgba(39, 201, 63, 0.3);
+    gap: 8px;
+}
+
+.btn-cv:hover {
+    background: rgba(39, 201, 63, 0.2);
+    border-color: #27c93f;
+    transform: translateY(-2px);
+    box-shadow: 0 8px 25px rgba(39, 201, 63, 0.15);
+}
+
+.btn-cv svg {
+    flex-shrink: 0;
+}
+
+.nav-cv {
+    color: #27c93f !important;
+    border: 1px solid rgba(39, 201, 63, 0.3);
+    background: rgba(39, 201, 63, 0.08) !important;
+}
+
+.nav-cv:hover {
+    background: rgba(39, 201, 63, 0.15) !important;
+}
+
 .hero-stats {
     display: flex;
     gap: 40px;
